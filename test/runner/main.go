@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+    "fmt"
+    "github.com/gotk3/gotk3/gtk"
+)
 
 func main() {
-    fmt.Println("hello %s", test.Adder)
+    fmt.Println("hello")
+    gtk.Init(nil)
 }
